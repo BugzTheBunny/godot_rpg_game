@@ -1,3 +1,3 @@
-extends Area2D
+extends "res://Hitboxes_Hurtboxes/Hitbox.gd"
 
 var knockback_vector = Vector2.ZERO
