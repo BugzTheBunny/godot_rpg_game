@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Godot Rpg Game"
-run/main_scene="res://World.tscn"
+run/main_scene="res://World/World.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -103,6 +103,7 @@ roll={
 2d_physics/layer_3="PlayerHurtbox"
 2d_physics/layer_4="EnemyHurtbox"
 2d_physics/layer_5="Enemy"
+2d_physics/layer_6="SoftCollisions"
 
 [physics]
 
